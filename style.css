@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: burlywood;
@@ -10,13 +12,42 @@ h1{
     border-radius: 12.5px    ;
 }
 
-/* .showcase_pic{
-    width: 700px;
-    height: 450px;
-    object-fit: cover;
-    display: block;
-    margin-inline: auto;
-} */
+#homeHead{
+    font-weight: normal;
+    background-color: transparent;
+ /* Default styles removed */
+    color: rgb(99, 8, 8);
+    font-family: 'Yeseva One', cursive;
+    font-size: 64px;
+}
+
+#homeMenu{
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#homeMenu li{
+    display: inline-block;
+    color: white;
+
+}
+
+#homeMenu a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    border: 2px dotted white;
+    border-radius: 40px;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+#homeMenu a:hover{
+    color: brown;
+    border-color: rgb(99, 8, 8);
+}
 
 .center_pic{
     text-align: center;
